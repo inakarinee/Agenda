@@ -1,0 +1,40 @@
+h1 {
+    text-align: center;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    background-color:  #451531;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.formulario {
+    margin-top: 2em;
+    height: 30em;
+    width: 20em;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1.8em;
+    border-radius: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.botao {
+    margin-top: 1em;
+    border-radius: 0.3em;
+    width: 5em;
+    display: flex;
+    flex-direction: column;    
+}
+
+p{
+    color: whitesmoke;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+

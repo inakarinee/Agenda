@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="horarios.css">
+    <title>Cadastro de tarefas</title>
+</head>
+<body>
+    <main>
+        <h1>TAREFAS DO DISCENTE</h1>
+        <h2>Cadastre uma nova tarefa</h2>
+        <div id="div1">
+            <form action="" id="usuário">
+                <input type="text" id="siape" placeholder="SIAPE" >
+                <input type="text" id="carga" placeholder="Carga Horária" >
+                <!-- <button onclick="cadastro()">entrar</button> -->
+            </form>   
+        </div>
+        <div id="cadastro">
+            <form action="" id="formulario">
+                <input type="text" placeholder="Atividade" id="atividade">
+                <label for="">Dia</label>
+                <select name="Dia" id="dia">
+                    <option value="Seg">Seg</option>
+                    <option value="Ter">Ter</option>
+                    <option value="Qua">Qua</option>
+                    <option value="Qui">Qui</option>
+                    <option value="Sex">Sex</option>
+                </select>
+                <br>
+                <label for="">Horário Inicial</label>
+                <input type="time" id="horario_inicial">
+                <label for="">Horário Final</label>
+                <input type="time" id="horario_final">
+            </form>
+            <button onclick="cadastro_tarefas()" id="botao">Cadastrar tarefa</button>
+
+            <div id="contagem">
+                <p>SUA CARGA HORÁRIA:</p> 
+                <p id="contador"></p>
+            </div>
+            
+        </div>
+       
+     
+    </main>
+
+    <script src="cadastro.js"></script>
+</body>
+</html>
