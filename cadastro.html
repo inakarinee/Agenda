@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,18 +9,22 @@
 </head>
 <body>
     <main>
-        <h1>TAREFAS DO DISCENTE</h1>
-        <h2>Cadastre uma nova tarefa</h2>
-        <div id="div1">
-            <form action="" id="usuário">
-                <input type="text" id="siape" placeholder="SIAPE" >
-                <input type="text" id="carga" placeholder="Carga Horária" >
+        <div id="titulos">
+            <h1>TAREFAS DO DISCENTE</h1>
+            <h2>Cadastre uma nova tarefa</h2>
+        </div>
+            
+        <div id="dados">
+            <form action="" id="usuario">
+                <input type="text" id="siape" placeholder="SIAPE" required>
+                <input type="text" id="carga" placeholder="Carga Horária" required>
                 <!-- <button onclick="cadastro()">entrar</button> -->
             </form>   
         </div>
         <div id="cadastro">
             <form action="" id="formulario">
-                <input type="text" placeholder="Atividade" id="atividade">
+                <label for="">Atividade</label>
+                <input type="text" placeholder="Atividade" id="atividade" required>
                 <label for="">Dia</label>
                 <select name="Dia" id="dia">
                     <option value="Seg">Seg</option>
@@ -31,16 +35,17 @@
                 </select>
                 <br>
                 <label for="">Horário Inicial</label>
-                <input type="time" id="horario_inicial">
+                <input type="time" id="horario_inicial" required>
                 <label for="">Horário Final</label>
-                <input type="time" id="horario_final">
+                <input type="time" id="horario_final" required>
             </form>
             <button onclick="cadastro_tarefas()" id="botao">Cadastrar tarefa</button>
 
-            <div id="contagem">
-                <p>SUA CARGA HORÁRIA:</p> 
-                <p id="contador"></p>
-            </div>
+            <p>SUA CARGA HORÁRIA:</p> 
+            <p id="contador"> </p>
+            <div id="mostrarhorarios"><p id="horario"></p></div>
+            <div id="mostrartarefas"><p id="tarefa"></p></div>
+            
             
         </div>
        
