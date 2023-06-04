@@ -1,49 +1,104 @@
-body{
+body {
     background-color: #451531;
-    margin: 5em;
-    margin-top: 2em;
+
+}
+#titulos {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
     display: flex;
-    justify-content: left;
+    flex-direction: column;
+    align-items: center;
 }
-
-h2{
+h1 {
     color: white;
-    font-size: 2em;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-h1{
-    color: whitesmoke;
     font-size: 3em;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
 }
-
-#div1{
-    align-items: end;
+h2 {
+    color: white;
+    font-size: 2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
 }
-
-#cadastro{
+#dados {
     display: flex;
-    justify-content: center;
-    background-color:rgba(0, 0, 0, 0.5);
-    height: 3em;
-    width: 56em;
-    margin: 2em;
+    height: 6em;
+    width: 65%;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
     border-radius: 1.5em;
-    padding: 20px;
-    color: whitesmoke;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
 
-button{
-    background-color: white;
-    margin-left: 1px;
-    size: 1.8em;
 }
+#cadastro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 2em;
+    width: 65%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 1.5em;
 
-#contagem{
-    color: whitesmoke;
-    font-size: 24px;
-    margin-left: 2em;
 }
-
+#usuario {
+    padding: 1.2em;
+}
+#siape {
+    padding: 0.3em;
+    border-radius: 0.5em;
+}
+#carga {
+    padding: 0.3em;
+    border-radius: 0.5em;
+}
+#formulario {
+    display: flex;
+    flex-direction: column;
+    padding: 1.2em;
+}
+label {
+    color: white;
+    margin: 0.3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#atividade {
+    padding: 0.3em;
+    border-radius: 0.5em;
+}
+#dia {
+    padding: 0.3em;
+    border-radius: 0.5em;
+}
+#horario_inicial {
+    padding: 0.3em;
+    border-radius: 0.5em;
+}
+#horario_final {
+    padding: 0.3em;
+    border-radius: 0.5em;
+}
+#botao {
+    padding: 0.3em;
+    border-radius: 0.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(91, 141, 113);
+}
+p {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5em;
+}
+#mostrartarefas {
+    color: black;
+}
+#mostrarhorarios {
+    float: right;
+    color: #451531;
+}
